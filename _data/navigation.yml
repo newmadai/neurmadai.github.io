@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Overview"
+    url:  "/" 
+  - title: "Call for papers"
+    url: "/call-for-papers.html"  # Link to your call for papers page
+  - title: "Committee"
+    url: "/committee.html"  # Link to your committee page
+  # - title: "Schedule"
+  #   url: "/workshop_program.html"
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

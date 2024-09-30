@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/jekyll/update/2024/09/25/welcome-to-jekyll.html</loc>
+<lastmod>2024-09-25T21:24:25+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/call-for-papers.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/committee.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/workshop_program.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/css/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/lunr/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/plugins/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/js/vendor/jquery/</loc>
+</url>
+</urlset>

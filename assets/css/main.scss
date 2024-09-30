@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partialsc
+.page__content {
+    max-width: 100%;
+    font-size: 18px; /* Adjust this value as needed */
+}
+.organizers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.organizer {
+    flex-basis: 0 0 20%; /* Adjust this based on your design */
+    margin: 10px; /* Ensure this is not too large */
+    text-align: center; /* Center-align the name under the photo */
+    padding: 0; /* Or adjust as needed */
+    box-sizing: border-box; /* This ensures padding and borders are included in the width */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.organizer img {
+    width: 230px; /* Adjust image width */
+    height: 230px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 15px; /* Adjust this value as needed */
+}
+
+.organizer img.custom-position {
+    object-position: center top; /* Adjust as needed */
+}
+
+.invited_speakers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust this to align the speakers as desired */
+}
+
+.invited_speaker {
+    flex-basis: calc(50% - 20px); /* Adjust for 2 speakers per line, considering margin */
+    margin: 10px; /* Margin around each speaker */
+    text-align: center; /* Center-align the name under the photo */
+    padding: 0; /* Or adjust as needed */
+    box-sizing: border-box; /* Include padding and borders in the width */
+}
+
+.invited_speaker img {
+    width: 300px; /* Adjust image width */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 15px; /* Space between the image and the text */
+}
+
+/* New styles for the title and abstract */
+.invited_speaker h3 {
+    font-size: 1.5em; /* Slightly larger to denote importance */
+    color: #333; /* Dark color for better readability */
+    margin-top: 10px; /* Space from the previous content */
+    margin-bottom: 5px; /* Minimal gap before abstract */
+}
+
+.invited_speaker p {
+    font-size: 1.1em; /* Slightly smaller than usual paragraph text */
+    color: #666; /* Lighter color to differentiate from titles and important info */
+    line-height: 1.5; /* Better readability for longer text */
+    margin: 0 20px; /* Horizontal margins for alignment, no vertical margin to keep close to title */
+}
+
+/* Enhancing abstract specific styling to separate it from other texts */
+.invited_speaker p.abstract {
+    text-align: justify; /* Justifies the abstract text for a clean look */
+    padding-top: 5px; /* Space between the title and the first line of the abstract */
+    border-top: 1px solid #eee; /* Subtle separation from the title */
+}
